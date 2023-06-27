@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow:hidden;
+}
+.container{
+    background-color: rgb(34, 33, 33);
+    width:700px;
+    height:400px;
+    padding:10px;
+    display: grid;
+    gap:10px;
+    grid-template-columns: 139px 134px 114px 134px 139px;
+    grid-template-rows: 100px 95px 35px 140px;
+    color:white;
+}
+.val1{
+    background-color: red;
+    grid-row: span 2;
+}
+.val2{
+    background-color: aqua;
+    grid-column: 2/ span 2;
+}
+.val3{
+    background-color: coral;
+    grid-column: 4/span 2;
+}
+.val4{
+    background-color: coral;
+    grid-column:2;
+    grid-row: span 2;
+}
+.val5{
+    background-color: grey;
+    grid-column:3/span 2;
+    grid-row: span 2;
+}
+.val6{
+    background-color: red;
+    grid-row:span 3;
+}
+.val7{
+    background-color: grey;
+    grid-row:span 2;
+}
+.val8{
+    background-color: red;
+    grid-column: span 2;
+}
+.val9{
+    background-color: aqua;
+}
+.container div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
